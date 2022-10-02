@@ -3,7 +3,7 @@ export const navigation = {
     {
       id: "women",
       name: "Categorias",
-      featured: [],
+      featured: [{name: '', imageSrc: '', imageAlt: '', href: ''}],
       sections: [
         {
           id: "clothing",

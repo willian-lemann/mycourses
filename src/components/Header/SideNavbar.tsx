@@ -81,13 +81,13 @@ export const SideNavbar = ({ open, onToggleSideNavbar }: SideNavbar) => {
                       <div className="grid grid-cols-2 gap-x-4">
                         {category.featured.map((item) => (
                           <div
-                            key={item.name}
+                            key={item?.name}
                             className="group relative text-sm"
                           >
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
                               <img
-                                src={item.imageSrc}
-                                alt={item.imageAlt}
+                                src={item?.imageSrc}
+                                alt={item?.imageAlt}
                                 className="object-cover object-center"
                               />
                             </div>
